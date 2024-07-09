@@ -1,0 +1,155 @@
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.into-img {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.mask::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#000;
+    opacity: 0.5;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+}
+
+.hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+    overflow: hidden;
+    border-right: .15em solid #fff;
+    font-family: monospace;
+    /* width: 100%; */
+    margin: 0;
+    white-space: nowrap;
+    letter-spacing: .1em ;
+    animation: typing 3.5s steps(40),
+               blink-caret .75s step-end  infinite;
+    
+}
+
+@keyframes  cursor{
+    0%,100%{
+        border-color: transparent;
+    }
+    50%{
+    border-color: #000;}
+}
+@keyframes typing{
+   50%{
+   width: 0%;
+   }
+   100%{
+   width: 100%;
+}
+}
+
+.hero .content p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    color:#fff;
+}
+button{
+    font-family: cursive;
+}
+.content .btn {
+    margin: 1rem 0.2rem;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.btn-main-offer {
+    border: 1px solid #fffffe;
+    border-radius: 10px;
+    color: #fff;
+    margin: 2rem;
+    padding: 10px 12px 12px;
+    text-decoration: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.btn-main-offer:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btn-dark {
+    background-color: #212529;
+    /* border-color: #212529; */
+    color: #fff;
+}
+.btns {
+    opacity: .6;
+}
+.btn-dark:hover{
+background-color: #000;
+}
+.btn {
+    font-family: cursive;
+    text-transform: uppercase;
+    /* background-color: transparent; */
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    text-align: center;
+    text-decoration: none;
+   
+}
+@media screen and (max-width:640px) {
+    .hero .content h1 {
+       
+            color: #fff;
+            font-size: 1.7rem;
+            padding: 0.6rem 0 1.5rem;
+            overflow: hidden;
+            border-right: .15em solid #fff;
+            font-family: monospace;
+            width: 100%;
+            margin: 0;
+            white-space: nowrap;
+            /* letter-spacing: .1em ; */
+            animation: typing 3.5s steps(40),
+                       blink-caret .75s step-end  infinite;
+            
+        
+
+    }
+
+    .hero .content p {
+        font-size: 1.4rem;
+
+    }
+}

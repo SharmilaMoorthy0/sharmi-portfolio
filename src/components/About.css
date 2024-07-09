@@ -1,0 +1,128 @@
+.mask1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.into-img {
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.mask1::after {
+    content: "";
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.About {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.About .box1  {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.box1 {
+    height: 400px;
+    width: 100%;
+    min-height: 10vh;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(192, 192, 192, 0.5);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+
+.content-section {
+    float: right;
+    width: 100%;
+    margin-top: 0px!important;
+    color: #000;
+
+}
+
+.img-section img {
+    width: 100%;
+    height: 450px;
+
+}
+
+ 
+
+ p {
+    width: 100%;
+    margin-top: 0px!important;
+    color: #000;
+
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: cursive;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+
+}
+.btnss{
+    width: 15%;
+    margin: auto;
+}
+button{
+    font-family: cursive;
+}
+@media  (max-width:480px) {
+    .into-img {
+        width: 100%;
+        height:800px;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .box1 {
+        width: 94%!important;
+        min-height: 80vh;
+        border: 1px solid black;
+        border-radius: 30px;
+        background-color: rgb(192, 192, 192, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mask1::after {
+        content: "";
+        width: 100%;
+        height: 800px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        opacity: 0.5;
+    }
+    .btnss{
+        width: 50%;
+    }
+    
+
+}
+
+
