@@ -142,7 +142,7 @@ p {
 @media (max-width: 768px) {
     .skill .box2 {
         position: absolute;
-        top: 110vh!important;
+        top: 135vh!important;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;

@@ -71,7 +71,7 @@ h5{
 @media (max-width: 768px) {
     .project .box3 {
         position: absolute;
-        top: 64%!important;
+        top: 80%!important;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
