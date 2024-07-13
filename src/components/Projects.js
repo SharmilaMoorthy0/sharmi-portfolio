@@ -14,13 +14,13 @@ function Projects() {
           <img src={sea} className='img-fluid into-img3' />
         </div>
 
-        <div className='box3 w-75 '>
+        <div className='box3  '>
        
           <div className=' container '>
-          <h1> Projects</h1>
-            <div className='row  justify-content-center '>
+          <h1 className='my-5'> Projects</h1>
+            <div className='row my-5 justify-content-center '>
               
-              <div class="col-sm-12 col-md-4 col-lg-6 my-3 ">
+              <div class="col-sm-12 col-md-4 col-lg-4 my-3 ">
 
                 <img src={project1} class="img-fluid   projectbox" width={"500px"} height={"500px"} />
                 <h5 class="card-title mt-0 "><strong>Ecommerce</strong></h5>
@@ -29,7 +29,7 @@ function Projects() {
               </div>
 
 
-              <div class="col-sm-12 col-md-4 col-lg-6 my-3">
+              <div class="col-sm-12 col-md-4 col-lg-4 my-3">
 
                 <img src={project2} class=" img-fluid  projectbox" width={"500px"} height={"500px"} alt="..." />
 
@@ -39,7 +39,7 @@ function Projects() {
               </div>
 
 
-              <div class="col-sm-12 col-md-4 col-lg-6 my-3 ">
+              <div class="col-sm-12 col-md-4 col-lg-4 my-3 ">
 
                 <img src={project3} class="img-fluid  projectbox" width={"500px"} height={"500px"} alt="..." />
                 <h5 class="card-title mt-0 "><strong>ToDo App</strong></h5>

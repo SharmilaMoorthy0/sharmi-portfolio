@@ -23,7 +23,14 @@ function Home() {
             <h1>FULL STACK DEVELOPER</h1>
             </div>
            <div>
-           <button className=' btn-main-offer'> Get Resume</button>
+          
+              <a 
+                href='/sharmi(1).pdf'   
+                className='btn-main-offer my-2 '
+              >
+                Get Resume
+              </a>
+            
            </div>
             <button className='btn btn-dark  btns' onClick={()=>navigate('./About')}>About Me</button>
           
