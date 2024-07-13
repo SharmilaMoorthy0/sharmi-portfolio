@@ -25,10 +25,10 @@ function Skill() {
         <div className='box2 w-75 m-auto'>
 
           <div className='container'>
-
+          <h1>My Skills</h1>
 
             <div className='row  justify-content-center'>
-              <h1>My Skills</h1>
+             
               <div className='col-sm-6 col-md-6 col-lg-2  animea  justify-content-evenly mb-4' >
                 <img className='size' src={html} />
                 <p className='skill-name'> Html</p>
