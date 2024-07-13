@@ -12,8 +12,8 @@ function About() {
   return (
     <Layout>
       <div className='About'>
-        <div className='mask1'>
-          <img src={sea} className='img-fluid into-img ' />
+        <div className='mask2'>
+          <img src={sea} className='img-fluid into-img2 ' />
         </div>
         <div className='box1 w-75 m-auto'>
           <div className='container text-center'  >

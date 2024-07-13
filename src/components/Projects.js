@@ -19,7 +19,7 @@ function Projects() {
           <div className=' container '>
          
             <div className='row my-5 justify-content-center '>
-            <h1 className='my-5'> Projects</h1>
+            <h1 className='my-3'> Projects</h1>
               <div class="col-sm-12 col-md-4 col-lg-4 my-3 ">
 
                 <img src={project1} class="img-fluid   projectbox" width={"500px"} height={"500px"} />

@@ -14,15 +14,11 @@ function Header() {
     <>
       <MobileNav isopen={openmenu} togglemenu={togglemenu} />
 
-      <nav className='nav_wrapper p-0'>
+      <nav className='nav_wrapper '>
 
         <div >
           <header className='nav_content ' >
-            {/* <a className='logo ' href='Home'> DEVELOPER</a>
-            <button className='menu_btn ' onClick={togglemenu}>
-              {openmenu ?"": <i class="fa fa-bars" aria-hidden="true"></i>}
-           
-            </button> */}
+         
             <ul className=''>
               <a className="menu_item mx-4" href='/'> Home</a>
               <a className="menu_item mx-4" href='/About'> About</a>

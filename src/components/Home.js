@@ -11,11 +11,11 @@ function Home() {
   const navigate=useNavigate()
   return (
     <Layout>
-      <div className='hero'>
-        <div className='mask'>
+      <div className='hero '>
+        <div className='mask '>
           <img src={sea} className='img-fluid into-img' alt='introImg'/>
         </div>
-        <div className='content'>
+        <div className=' box content'>
             <p>HELLO,
               I'm SHARMILA
             </p>
