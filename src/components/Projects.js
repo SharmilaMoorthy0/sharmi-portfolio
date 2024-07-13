@@ -17,7 +17,7 @@ function Projects() {
         <div className='box3  '>
        
           <div className=' container '>
-          <h1 className='my-5'> Projects</h1>
+          <h1 className=''> Projects</h1>
             <div className='row my-5 justify-content-center '>
            
               <div class="col-sm-12 col-md-4 col-lg-4 ">
