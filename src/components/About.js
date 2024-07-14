@@ -17,11 +17,11 @@ function About() {
         </div>
         <div className='box1 w-75 m-auto'>
           <div className='container text-center'  >
-         
-            <div className='row align-items-center p-5  '>
+          <h1>About</h1>
+            <div className='row align-items-center   '>
           
           <div className='col-sm-12 col-md-12 col-lg-12'>
-            <h1>About</h1>
+           
                 <p>Hello, I am a highly motivated and skilled engineering graduate looking for an entry-level position as a software engineer.
                   Strong in design and integration with intuitive problem-solving skills. Passionate to contribute ideas and learn new things.
                   I am available for any kind of job opportunity that suits my interests.</p>

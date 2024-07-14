@@ -45,7 +45,7 @@
         border: 1px solid black;
         border-radius: 30px;
         background-color: rgb(192, 192, 192, 0.5);
-        height: 700px!important;
+        height: 400px!important;
          display: flex; 
         justify-content: center;
         align-items: center; 
@@ -102,7 +102,7 @@ button{
 @media  (max-width:480px) {
     .About .box1  {
         position: absolute;
-        top: 74%;
+        top: 64%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -129,7 +129,7 @@ button{
         border: 1px solid black;
         border-radius: 30px;
         background-color: rgb(192, 192, 192, 0.5);
-        height: 700px;
+        height: 600px!important;
          display: flex; 
         justify-content: center;
         align-items: center; 
