@@ -26,13 +26,13 @@ function Home() {
           
               <a 
                 href='/sharmi(1).pdf'   
-                className='btn-main-offer my-2 '
+                className='btn-main-offer '
               >
                 Get Resume
               </a>
             
            </div>
-            <button className='btn btn-dark  btns' onClick={()=>navigate('./About')}>About Me</button>
+            <button className='btn btn-dark  btns my-5' onClick={()=>navigate('./About')}>About Me</button>
           
 
         </div>

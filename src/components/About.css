@@ -4,7 +4,7 @@
     position: relative;
 }
 
-.into-img2 {
+.into-img1 {
     width: 100%;
     height: 700px;
     background-position: center;
@@ -90,15 +90,15 @@ button{
     font-family: cursive;
 }
 @media  (max-width:480px) {
-    .into-img2 {
+    .into-img1 {
         width: 100%;
-        height:400px!important;
+        height:800px!important;
         background-position: center;
         background-size: cover;
         object-fit: cover;
     }
     .box1 {
-        width: 94%!important;
+         width: 94%!important;
         min-height: 80vh;
         border: 1px solid black;
         border-radius: 30px;
@@ -106,12 +106,15 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 700px!important; 
+        overflow: hidden;
+       
     }
     
     .mask2::after {
         content: "";
         width: 100%;
-        height: 400px;
+        height: 800px!important;
         position: absolute;
         top: 0;
         left: 0;

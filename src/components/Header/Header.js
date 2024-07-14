@@ -14,9 +14,9 @@ function Header() {
     <>
       <MobileNav isopen={openmenu} togglemenu={togglemenu} />
 
-      <nav className='nav_wrapper '>
+      <nav className='nav_wrapper navbar-expand-lg p-0'>
 
-        <div >
+        <div className=''>
           <header className='nav_content ' >
          
             <ul className=''>
@@ -39,6 +39,7 @@ function Header() {
 </button>
 </div>
       </nav >
+      
      
 
 

@@ -14,7 +14,7 @@ function Projects() {
           <img src={sea} className='img-fluid into-img3' />
         </div>
 
-        <div className='box3  '>
+        <div className='box3 my-3  '>
        
           <div className=' container '>
           <h1 className=''> Projects</h1>
