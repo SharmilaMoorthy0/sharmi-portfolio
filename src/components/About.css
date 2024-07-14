@@ -105,7 +105,7 @@ button{
         background-size: cover;
         object-fit: cover;
     }
-    /* .box1 {
+    .box1 {
          width: 94%!important;
         min-height: 80vh;
         border: 1px solid black;
@@ -117,7 +117,7 @@ button{
         height: 700px!important; 
         overflow: hidden;
        
-    } */
+    }
     
     .mask2::after {
         content: "";
