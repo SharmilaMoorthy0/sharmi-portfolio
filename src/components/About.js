@@ -13,7 +13,7 @@ function About() {
     <Layout>
       <div className='About'>
         <div className='mask2'>
-          <img src={sea} className='img-fluid into-img1 'width={"100px"} height={"100px"} />
+          <img src={sea} className='img-fluid into-img1 ' />
         </div>
         <div className='box1 w-75 m-auto'>
           <div className='container text-center'  >
