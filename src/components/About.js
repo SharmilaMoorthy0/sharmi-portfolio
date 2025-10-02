@@ -13,15 +13,15 @@ function About() {
     <Layout>
       <div className='About'>
         <div className='mask2'>
-          <img src={sea} className='img-fluid into-img1 ' />
+          <img src={sea} className='img-fluid into-img1 '/>
         </div>
         <div className='box1 w-75 m-auto'>
-          <div className='container text-center'  >
-          <h1>About</h1>
-            <div className='row align-items-center   '>
-          
-          <div className='col-sm-12 col-md-12 col-lg-12'>
-           
+          <div className='container text-center'>
+            <h1>About</h1>
+            <div className='row align-items-center'>
+
+              <div className='col-sm-12 col-md-12 col-lg-12'>
+
                 <p>Hello, I am a highly motivated and skilled engineering graduate looking for an entry-level position as a software engineer.
                   Strong in design and integration with intuitive problem-solving skills. Passionate to contribute ideas and learn new things.
                   I am available for any kind of job opportunity that suits my interests.</p>
@@ -29,8 +29,8 @@ function About() {
               </div>
             </div>
           </div>
-          </div>
-       
+        </div>
+
         {/* <div className=' box1 '>
 
           <div className='container '>

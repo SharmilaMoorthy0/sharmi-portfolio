@@ -8,6 +8,7 @@ import About from './components/About';
 import Skill from './components/Skill';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Experience from './components/Experience/Experience';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <Route path={'/About'} element={<About/>}/> 
           <Route path={'/skills'} element={<Skill/>}/> 
           <Route path={'/Projects'} element={<Projects/>}/> 
-          <Route path={'/Contact'} element={<Contact/>}/> 
+          <Route path={'/Contact'} element={<Contact/>}/>
+          <Route path={'/Experience'} element={<Experience/>}/> 
         </Routes>
      
     </BrowserRouter>

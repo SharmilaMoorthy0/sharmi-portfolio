@@ -25,7 +25,7 @@ function Home() {
            <div>
           
               <a 
-                href='/sharmi(1).pdf'   
+                href='/sharmiii.pdf'   
                 className='btn-main-offer '
               >
                 Get Resume

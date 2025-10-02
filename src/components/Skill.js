@@ -68,21 +68,21 @@ function Skill() {
                 <img className='size' src={note} />
                 <p className='skill-name'> Node JS</p>
                 <div className='progress-bar'>
-                  <span className='percentage-express'> 75%</span>
+                  <span className='percentage-express'> 85%</span>
                 </div>
               </div>
               <div className=' col-sm-6 col-md-6 col-lg-2 animea justify-content-evenly mb-4' >
                 <img className='size' src={express} />
                 <p className='skill-name'> Express</p>
                 <div className='progress-bar'>
-                  <span className='percentage-node'> 75%</span>
+                  <span className='percentage-node'> 85%</span>
                 </div>
               </div>
               <div className=' col-sm-6 col-md-6 col-lg-2  animea  justify-content-evenly mb-4' >
                 <img className='size' src={mongoDB} />
                 <p className='skill-name'> MongoDB</p>
                 <div className='progress-bar'>
-                  <span className='percentage-mongo'> 75%</span>
+                  <span className='percentage-mongo'> 85%</span>
                 </div>
               </div>
 
@@ -90,7 +90,7 @@ function Skill() {
                 <img className='size' src={git} />
                 <p className='skill-name'>GitHub</p>
                 <div className='progress-bar'>
-                  <span className='percentage-git'> 75%</span>
+                  <span className='percentage-git'> 85%</span>
                 </div>
               </div>
 

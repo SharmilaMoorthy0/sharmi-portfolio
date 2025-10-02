@@ -24,7 +24,9 @@ function Header() {
               <a className="menu_item mx-4" href='/About'> About</a>
               <a className="menu_item mx-4" href='/skills'> skills</a>
               <a className="menu_item mx-4" href='/Projects'> Projects</a>
+               {/* <a className="menu_item mx-4" href='/Experience'> Experience</a> */}
               <a className="menu_item mx-4" href='/Contact'> contact</a>
+             
             </ul>
 
 

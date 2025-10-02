@@ -18,7 +18,9 @@ function MobileNav({isopen,togglemenu}) {
                     <li><a className="menu_item " href='/About'> About</a></li>
                     <li><a className="menu_item" href='/skills'> skills</a></li>
                     <li><a className="menu_item " href='/Projects'> Projects</a></li>
+                     <li><a className="menu_item mx-4" href='/Experience'> Experience</a></li> 
                     <li><a className="menu_item" href='/contact'> contact</a></li>
+                     
                 </ul>
             </div>
         </div>

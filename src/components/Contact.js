@@ -19,7 +19,7 @@ function Contact() {
           <h1 className=' '>Contact</h1>
           <div className='row text-center justify-content-center'>
          
-            <div className='col-sm-12 col-md-12 col-lg-6 ml-20 mt-5'>
+            <div className='col-sm-12 col-md-12 col-lg-6 ml-20 '>
               <div className='w-75 m-2'>
                 <input type='text' className='form-control align-items-center' placeholder='Name' />
               </div>
